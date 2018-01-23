@@ -2,3 +2,5 @@ _site
 
 # General
 .DS_Store
+
+.idea/

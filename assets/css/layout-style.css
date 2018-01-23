@@ -48,8 +48,12 @@ a:hover {
 }
 
 p, pre { margin-bottom: 15px; }
-ul, ol { padding: 0 0 18px 30px; }
-ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
+/* following line is from https://github.com/borisyurkevich/borisyurkevich.github.io/blob/master/style/style.css */
+ol li, ul li { 
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	margin-left: 24px;
+}
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
 small { font-size: 0.85em; }
