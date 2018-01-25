@@ -26,9 +26,13 @@ paginate: 5
 
 excerpt_separator:  <!--more-->
 
+sass:
+  style: compressed
+  
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
   
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
