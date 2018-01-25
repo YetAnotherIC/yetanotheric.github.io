@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1200px) {
+
+  //customize bootstrap, fix horizontal scroll bar issue on small screen device
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .container {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+}

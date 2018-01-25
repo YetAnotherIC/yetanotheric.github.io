@@ -12,9 +12,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-body, html{
-  overflow-x: hidden;
-}
 body {
   line-height: 1;
 }
@@ -188,14 +185,14 @@ h3 {
   border: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   #sidebar {
     text-align: left;
     padding-bottom: 20px;
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
 
   #sidebar {
     text-align: right;
