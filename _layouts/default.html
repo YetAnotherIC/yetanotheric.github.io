@@ -17,29 +17,43 @@
 
 <body>
 
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 hidden-sm-down">
+        </div>
 
-<header id="header">
-    <h1><a href="/"> {{ site.name }}</a></h1>
-    <p>{{ site.description }}</p>
-</header>
+        <div class="col-lg-6 col-sm-12 content-right" id="header" >
+            <h1><a href="/"> {{ site.name }}</a></h1>
+            <p>{{ site.description }}</p>
+        </div>
 
-
-<div id="page">
-    <div id="sidebar">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/archives">Archive</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-        </nav>
     </div>
 
 
-    <div id="content">
-        {{ content }}
+
+    <div class="row">
+        <div class="col-lg-3 col-sm-12" id="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/archives">Archive</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <div class="col-lg-6 col-sm-12 content-right" >
+            {{content}}
+        </div>
+        <div class="col">
+
+        </div>
+
     </div>
 </div>
+
 
 
 </body>
