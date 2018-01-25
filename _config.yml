@@ -20,6 +20,7 @@ description: メモやら雑談やら
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://yetanotheric.github.io
 github_username:  YetAnotherIC
+author: ic
 
 permalink: /:year/:month/:day/:title/
 paginate: 5
