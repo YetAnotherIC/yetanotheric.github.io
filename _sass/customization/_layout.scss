@@ -12,6 +12,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+body, html{
+  overflow-x: hidden;
+}
 body {
   line-height: 1;
 }
