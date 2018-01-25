@@ -11,7 +11,7 @@ Features
 
 * **Two color schemes** — One for Solarized Dark and one for Solarized Light. Change import in `assets/css/styles.css` from `@import "customization/colors-light";` to `@import "customization/colors-dark";` to switch theme.
 * **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
-* **Responsive Design** — We use grid system from `bootstrap v4` to implement responsive design.
+* **Responsive Design** — We use css from the original solar and grid system from `bootstrap v4` to implement responsive design.
 
 
 Installation
