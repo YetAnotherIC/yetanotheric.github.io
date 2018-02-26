@@ -1,8 +1,8 @@
 $base00: #657b83;
-
+$bg-color: #fdf6e3;
 html,
 body {
-    background-color: #fdf6e3;
+    background-color: $bg-color;
     color: $base00;
 }
 
@@ -339,5 +339,14 @@ blockquote {
 }
 
 .textHide {
-    color: #fdf6e3;
+    color: $bg-color;
+}
+
+
+.spoil {
+    color: $bg-color;
+}
+
+.spoil:hover, .spoil:active {
+    color: $base00;
 }
