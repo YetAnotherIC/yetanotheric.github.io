@@ -23,7 +23,7 @@ url: https://yetanotheric.github.io
 github_username:  YetAnotherIC
 author: ic
 
-permalink: /:year/:month/:day/:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
 
 excerpt_separator:  <!--more-->
